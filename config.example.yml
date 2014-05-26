@@ -1,0 +1,8 @@
+
+RUCACHAN_NICK: 'rucachan_bot'
+RUCACHAN_USER: 'rucachan'
+RUCACHAN_REALNAME: 'rucachan@example.com'
+
+RUCACHAN_SERVER: 'irc.exmaple.com'
+RUCACHAN_PORT: 6667
+RUCACHAN_CHANNELS: '#rucachan, #rucachan_bot'

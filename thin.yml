@@ -1,0 +1,4 @@
+servers: 1
+daemonize: true
+log: log/rucachan.log
+pid: tmp/pids/rucachan.pid

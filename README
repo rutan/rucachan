@@ -1,0 +1,13 @@
+# Rucachan
+
+Rucachan（るかちゃん）は指定ポート番号の
+エンドポイントにPOSTした文字列をIRCに流し込むbotです。
+
+## how to use?
+```bash
+$ bundle install
+$ bundle exec thin start -C ./thin.yml -p 9292
+
+$ curl 'http://localhost:9292/message' -X POST -d 'message hogehoge'
+$ curl 'http://localhost:9292/notice' -X POST -d 'notice fugafuga'
+```
